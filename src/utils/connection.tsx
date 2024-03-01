@@ -10,11 +10,11 @@ import React, { useContext, useEffect, useMemo } from "react";
 import { setProgramIds } from "./ids";
 import { notify } from "./notifications";
 
-export type ENV = "Mainnet" | "testnet" | "devnet";
+export type ENV = "mainnet-beta" | "testnet" | "devnet" ;
 
 export const ENDPOINTS = [
   {
-    name: "Mainnet" as ENV,
+    name: "mainnet-beta" as ENV,
     endpoint: "https://mainnet.helius-rpc.com/?api-key=a13a5d3d-e024-472c-bcd6-506e00b70efa",
   },
   { name: "testnet" as ENV, endpoint: clusterApiUrl("testnet") },
