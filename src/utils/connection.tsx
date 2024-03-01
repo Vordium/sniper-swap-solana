@@ -15,11 +15,11 @@ export type ENV = "mainnet-beta" | "testnet" | "devnet" | "localnet";
 export const ENDPOINTS = [
   {
     name: "mainnet-beta" as ENV,
-    endpoint: "https://solana-api.projectserum.com/",
+    endpoint: "https://mainnet.helius-rpc.com/?api-key=a13a5d3d-e024-472c-bcd6-506e00b70efa",
   },
   { name: "testnet" as ENV, endpoint: clusterApiUrl("testnet") },
   { name: "devnet" as ENV, endpoint: clusterApiUrl("devnet") },
-  { name: "localnet" as ENV, endpoint: "http://127.0.0.1:8899" },
+  
 ];
 
 const DEFAULT = ENDPOINTS[0].endpoint;
