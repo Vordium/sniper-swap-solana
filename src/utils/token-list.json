@@ -7,6 +7,12 @@
       "icon": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/solana/info/logo.png"
     },
     {
+      "tokenSymbol": "VNOM",
+      "mintAddress": "So11111111111111111111111111111111111111112",
+      "tokenName": "Venom",
+      "icon": "http://venomsol.xyz/media/2024/02/aQWXTCQN_400x400.jpg"
+    },
+    {
       "tokenSymbol": "SNPR",
       "mintAddress": "3Ht7eXT86SKpPL5gZFCVh5BJBNRP82gJofwdw88ujtGV",
       "tokenName": "Sniper",
