@@ -10,7 +10,7 @@ import React, { useContext, useEffect, useMemo } from "react";
 import { setProgramIds } from "./ids";
 import { notify } from "./notifications";
 
-export type ENV = "Mainnet" | "testnet" | "devnet" ;
+export type ENV = "Mainnet" | "testnet" | "devnet";
 
 export const ENDPOINTS = [
   {
