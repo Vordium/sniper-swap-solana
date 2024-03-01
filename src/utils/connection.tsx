@@ -15,7 +15,7 @@ export type ENV = "mainnet-beta" | "testnet" | "devnet" ;
 export const ENDPOINTS = [
   {
     name: "mainnet-beta" as ENV,
-    endpoint: "https://mainnet.helius-rpc.com/?api-key=a13a5d3d-e024-472c-bcd6-506e00b70efa",
+    endpoint: "https://solana-mainnet.g.alchemy.com/v2/YsDgFSg7SWEX2-tOcVSd3gyROtq-QKDX",
   },
   { name: "testnet" as ENV, endpoint: clusterApiUrl("testnet") },
   { name: "devnet" as ENV, endpoint: clusterApiUrl("devnet") },
