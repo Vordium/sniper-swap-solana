@@ -5,7 +5,7 @@ import { useConnectionConfig } from "./connection";
 import { useLocalStorageState } from "./utils";
 
 export const WALLET_PROVIDERS = [
-  { name: "phantom.app", url: "https://phantom.app/ul/v1/connect" },
+  { name: "phantom.app", url: "https://phantom.app/ul/browse" },
   { name: "solflare.com", url: "https://solflare.com/access-wallet" },
   { name: "mathwallet.org", url: "https://www.mathwallet.org" },
 ];
